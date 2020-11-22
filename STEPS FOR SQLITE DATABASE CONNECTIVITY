@@ -1,0 +1,5 @@
+STEPS FOR SQLITE DATABASE CONNECTIVITY
+
+create icons from drawable in std layout 
+create and find views from std layout in StudentsActivity
+create listerner to delete the data from listview and ask the confirmation in listerner to delete it or not then set the positive lister to take the confirmation set the negative button as well 

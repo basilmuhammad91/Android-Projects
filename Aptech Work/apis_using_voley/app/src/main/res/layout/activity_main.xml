@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/txtPassword"
+            android:inputType="textPassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <Button
+            android:onClick="insertStudent"
+            android:text="Submit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_toRightOf="@id/linearLayout"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+    </ImageView>
+    <Button
+        android:layout_marginHorizontal="20dp"
+        android:layout_alignStart="@id/img"
+        android:layout_alignEnd="@id/img"
+        android:text="Browse"
+        android:onClick="bowseImage"
+        android:layout_below="@id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:onClick="getdata"
+        android:layout_alignParentBottom="true"
+        android:text="retrive data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+    android:onClick="student_list"
+    android:layout_alignParentBottom="true"
+    android:text="student list"
+        android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</Button>
+</RelativeLayout>

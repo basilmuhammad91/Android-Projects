@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+
+        <EditText
+            android:id="@+id/txtName"
+            android:hint="Enter Your Name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:hint="Enter Your Email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:hint="Enter Your Password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/insertStudent"
+            android:onClick="insertStudent"
+            android:layout_width="200dp"
+            android:text="Register"
+            android:layout_height="wrap_content"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/showStudent"
+            android:onClick="showStudent"
+            android:layout_width="200dp"
+            android:text="Show Data"
+            android:layout_height="wrap_content"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>

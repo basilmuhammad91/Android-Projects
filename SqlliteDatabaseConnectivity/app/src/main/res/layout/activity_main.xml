@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content">
+       <EditText
+           android:id="@+id/txtId"
+           android:hint="Id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+       </EditText>
+       <EditText
+            android:id="@+id/txtName"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        >
+        </EditText>
+       <EditText
+           android:id="@+id/txtPhone"
+           android:hint="Phone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+       </EditText>
+       <EditText
+           android:id="@+id/txtEmail"
+           android:hint="Email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+       </EditText>
+       <EditText
+           android:id="@+id/txtPassword"
+           android:hint="Password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+       </EditText>
+       <Button
+           android:id="@+id/insertStudent"
+           android:onClick="insertStudent"
+           android:text="Add Student"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="OnClick" />
+       <Button
+           android:id="@+id/updateStudent"
+           android:onClick="updateStudent"
+           android:text="Update Student"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="OnClick" />
+       <Button
+           android:id="@+id/deleteStudent"
+           android:onClick="deleteStudent"
+           android:text="Delete Student"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="OnClick" />
+   </LinearLayout>
+    <Button
+        android:id="@+id/showstudent"
+        android:onClick="showInAlert"
+        android:layout_alignParentBottom="true"
+        android:text="Show Students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/showrecord"
+        android:onClick="showRecord"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Show Students"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

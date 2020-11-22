@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/std_img"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/std_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:text="Id"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:text="Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Email"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Password"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_toRightOf="@id/linearlayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="101"
+        android:id="@+id/std_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ali"
+        android:id="@+id/std_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="2010230202"
+        android:id="@+id/std_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="ali@gmail.com"
+        android:id="@+id/std_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+    android:text="ali123"
+        android:id="@+id/std_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/ic_view"
+        android:id="@+id/std_img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/ic_edit"
+        android:id="@+id/std_img_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/ic_delete"
+        android:id="@+id/std_img_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
+</RelativeLayout>
